@@ -1,105 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mallorca - Guía Básica</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #2c7be5;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            background-color: #1a5bb8;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            padding: 20px;
-        }
-        .section {
-            background: white;
-            margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        footer {
-            background-color: #2c7be5;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
-        img {
-            width: 100%;
-            border-radius: 8px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa en Esporles - Sa Pansa 33</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f2f2f2; }
+    header { background: #6b8e23; color: white; padding: 20px; text-align: center; }
+    nav { background: #556b2f; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { padding: 20px; }
+    .card { background: white; margin-bottom: 20px; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    footer { background: #6b8e23; color: white; text-align: center; padding: 10px; }
+    img { width: 100%; max-width: 500px; border-radius: 10px; margin-top: 10px; }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Bienvenido a Mallorca</h1>
-    <p>Una de las islas más bonitas del Mediterráneo</p>
+  <h1>Casa en Esporles</h1>
+  <p>Sa Pansa 33 - Un hogar lleno de buena gente</p>
 </header>
 
 <nav>
-    <a href="#lugares">Lugares</a>
-    <a href="#playas">Playas</a>
-    <a href="#comida">Comida</a>
-    <a href="#actividades">Actividades</a>
+  <a href="#casa">La Casa</a>
+  <a href="#personas">Los Habitantes</a>
+  <a href="#calçotada">La Calçotada</a>
+  <a href="#fotos">Galería</a>
 </nav>
 
 <div class="container">
 
-    <div class="section" id="lugares">
-        <h2>Lugares famosos</h2>
-        <p>Mallorca cuenta con ciudades y pueblos impresionantes como Palma, Valldemossa y Sóller.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Palma_Cathedral.jpg" alt="Catedral de Palma">
-    </div>
+  <div class="card" id="casa">
+    <h2>Sobre la casa</h2>
+    <p>Esta acogedora casa está situada en Esporles, en la dirección Sa Pansa 33. Rodeada de naturaleza y tranquilidad, es el lugar perfecto para convivir, reunirse con amigos y disfrutar de la vida en Mallorca.</p>
+  </div>
 
-    <div class="section" id="playas">
-        <h2>Playas</h2>
-        <p>La isla es conocida por sus playas de aguas cristalinas como Es Trenc, Cala Millor y Cala d'Or.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Es_Trenc_beach.jpg" alt="Playa de Es Trenc">
-    </div>
+  <div class="card" id="personas">
+    <h2>Las personas que viven aquí</h2>
+    <p>En esta casa viven cinco personas maravillosas, conocidas por ser amables, simpáticas, guapas y siempre dispuestas a ayudar.</p>
+    <ul>
+      <li><strong>Daniel</strong>: una persona carismática, divertida y siempre con buena energía.</li>
+      <li><strong>Mireia</strong>: amable y alegre, hace que todos se sientan bienvenidos.</li>
+      <li><strong>Lola</strong>: simpática y cercana, aporta risas y buen ambiente a la casa.</li>
+      <li><strong>Laia</strong>: inteligente, creativa y muy agradable con todo el mundo.</li>
+      <li><strong>Gabriel</strong>: tranquilo, generoso y con un gran sentido del humor.</li>
+    </ul>
+  </div>
 
-    <div class="section" id="comida">
-        <h2>Comida típica</h2>
-        <p>Entre los platos más conocidos se encuentran la ensaimada, la sobrasada y el tumbet.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Ensaimada_de_Mallorca.jpg" alt="Ensaimada">
-    </div>
+  <div class="card" id="calçotada">
+    <h2>Evento de hoy: Calçotada</h2>
+    <p>Hoy se celebrará una gran calçotada en la casa. Será un evento especial con amigos y buena comida.</p>
+    <ul>
+      <li><strong>Invitados:</strong> 10 personas</li>
+      <li><strong>Precio por persona:</strong> 15€</li>
+      <li><strong>Incluye:</strong> calçots, compra de leña, carne y cerveza</li>
+    </ul>
+    <p>Se espera un ambiente festivo, con buena música, comida tradicional y muchas risas.</p>
+  </div>
 
-    <div class="section" id="actividades">
-        <h2>Actividades</h2>
-        <ul>
-            <li>Senderismo en la Serra de Tramuntana</li>
-            <li>Visitar cuevas como las Cuevas del Drach</li>
-            <li>Paseos en barco y deportes acuáticos</li>
-        </ul>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Coves_del_Drac_Lake_Martel.jpg" alt="Cuevas del Drach">
-    </div>
+  <div class="card" id="fotos">
+    <h2>Galería de fotos</h2>
+    <p>Fotografías de la casa en Sa Pansa 33:</p>
+    <img src="sapansa1.jpg" alt="Casa en Esporles - foto 1" />
+    <img src="sapansa2.jpg" alt="Casa en Esporles - foto 2" />
+  </div>
 
 </div>
 
 <footer>
-    <p>© 2026 Guía de Mallorca</p>
+  <p>© 2026 Casa Sa Pansa 33 - Esporles</p>
 </footer>
 
 </body>
