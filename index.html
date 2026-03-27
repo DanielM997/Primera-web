@@ -3,74 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Casa en Esporles - Sa Pansa 33</title>
+  <title>Invitación a la Calçotada - Sa Pansa 33</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f2f2f2; }
-    header { background: #6b8e23; color: white; padding: 20px; text-align: center; }
-    nav { background: #556b2f; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { text-align: center; background: #8b0000; color: white; padding: 20px; }
+    header img { width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; }
     .container { padding: 20px; }
     .card { background: white; margin-bottom: 20px; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-    footer { background: #6b8e23; color: white; text-align: center; padding: 10px; }
-    img { width: 100%; max-width: 500px; border-radius: 10px; margin-top: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .person { text-align: center; }
+    .person img { width: 100%; border-radius: 10px; }
+    footer { background: #8b0000; color: white; text-align: center; padding: 10px; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Casa en Esporles</h1>
-  <p>Sa Pansa 33 - Un hogar lleno de buena gente</p>
+  <h1>¡Estás invitado a la gran calçotada!</h1>
+  <p>Sa Pansa 33, Esporles</p>
+  <img src="portada.jpeg" alt="Todos comiendo calçots">
 </header>
-
-<nav>
-  <a href="#casa">La Casa</a>
-  <a href="#personas">Los Habitantes</a>
-  <a href="#calçotada">La Calçotada</a>
-  <a href="#fotos">Galería</a>
-</nav>
 
 <div class="container">
 
-  <div class="card" id="casa">
-    <h2>Sobre la casa</h2>
-    <p>Esta acogedora casa está situada en Esporles, en la dirección Sa Pansa 33. Rodeada de naturaleza y tranquilidad, es el lugar perfecto para convivir, reunirse con amigos y disfrutar de la vida en Mallorca.</p>
+  <div class="card">
+    <h2>Información del evento</h2>
+    <p><strong>Lugar:</strong> Sa Pansa 33, Esporles</p>
+    <p><strong>Hoy:</strong> Gran calçotada con amigos</p>
+    <p><strong>Precio:</strong> 15€ por persona</p>
+    <p>Incluye calçots, leña, carne y cerveza. ¡Ven con hambre y ganas de pasarlo bien!</p>
   </div>
 
-  <div class="card" id="personas">
-    <h2>Las personas que viven aquí</h2>
-    <p>En esta casa viven cinco personas maravillosas, conocidas por ser amables, simpáticas, guapas y siempre dispuestas a ayudar.</p>
-    <ul>
-      <li><strong>Daniel</strong>: una persona carismática, divertida y siempre con buena energía.</li>
-      <li><strong>Mireia</strong>: amable y alegre, hace que todos se sientan bienvenidos.</li>
-      <li><strong>Lola</strong>: simpática y cercana, aporta risas y buen ambiente a la casa.</li>
-      <li><strong>Laia</strong>: inteligente, creativa y muy agradable con todo el mundo.</li>
-      <li><strong>Gabriel</strong>: tranquilo, generoso y con un gran sentido del humor.</li>
-    </ul>
+  <div class="card">
+    <h2>Los anfitriones</h2>
+    <p>Daniel, Mireia, Lola, Laia y Gabriel son los anfitriones de esta calçotada. Juntos forman un grupo increíble: simpáticos, amables, divertidos y siempre dispuestos a organizar planes inolvidables. Gracias a ellos, esta calçotada promete ser todo un éxito.</p>
+    <div class="grid">
+      <div class="person">
+        <img src="sapansa1.jpeg" alt="Anfitriones 1">
+      </div>
+      <div class="person">
+        <img src="sapansa2.jpeg" alt="Anfitriones 2">
+      </div>
+    </div>
   </div>
 
-  <div class="card" id="calçotada">
-    <h2>Evento de hoy: Calçotada</h2>
-    <p>Hoy se celebrará una gran calçotada en la casa. Será un evento especial con amigos y buena comida.</p>
-    <ul>
-      <li><strong>Invitados:</strong> 10 personas</li>
-      <li><strong>Precio por persona:</strong> 15€</li>
-      <li><strong>Incluye:</strong> calçots, compra de leña, carne y cerveza</li>
-    </ul>
-    <p>Se espera un ambiente festivo, con buena música, comida tradicional y muchas risas.</p>
-  </div>
-
-  <div class="card" id="fotos">
-    <h2>Galería de fotos</h2>
-    <p>Fotografías de la casa en Sa Pansa 33:</p>
-    <img src="sapansa1.jpeg" alt="Casa en Esporles - foto 1" />
-    <img src="sapansa2.jpeg" alt="Casa en Esporles - foto 2" />
+  <div class="card">
+    <h2>Invitados especiales</h2>
+    <div class="grid">
+      <div class="person">
+        <img src="berto.jpeg" alt="Berto">
+        <h3>Berto</h3>
+        <p>Experto en mojar calçots sin mancharse (o eso dice él).</p>
+      </div>
+      <div class="person">
+        <img src="laura.jpeg" alt="Laura">
+        <h3>Laura</h3>
+        <p>Siempre llega con una sonrisa y se va siendo la última en marcharse.</p>
+      </div>
+      <div class="person">
+        <img src="rita.png" alt="Rita">
+        <h3>Rita</h3>
+        <p>La que trae el buen rollo y probablemente también postre.</p>
+      </div>
+      <div class="person">
+        <img src="Xavi_Mire.jpeg" alt="Xavi y Mire">
+        <h3>Mire</h3>
+        <p>Capaz de comerse más calçots que nadie sin perder la elegancia.</p>
+      </div>
+      <div class="person">
+        <img src="olatz.jpeg" alt="Olatz">
+        <h3>Olatz</h3>
+        <p>La fotógrafa oficial del evento… cuando no está ocupada comiendo.</p>
+      </div>
+    </div>
   </div>
 
 </div>
 
 <footer>
-  <p>© 2026 Casa Sa Pansa 33 - Esporles</p>
+  <p>¡Nos vemos en la calçotada!</p>
 </footer>
 
 </body>
